@@ -3,10 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeroComponent } from './components/hero/hero.component';
+import { FeaturedInComponent } from './components/featured-in/featured-in.component';
+import { HowItWorksComponent } from './components/how-it-works/how-it-works.component';
+import { MealsComponent } from './components/meals/meals.component';
+import { TestimonialsGalleryComponent } from './components/testimonials-gallery/testimonials-gallery.component';
+import { PricingFeaturesComponent } from './components/pricing-features/pricing-features.component';
+import { CtaComponent } from './components/cta/cta.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeroComponent,
+    FeaturedInComponent,
+    HowItWorksComponent,
+    MealsComponent,
+    TestimonialsGalleryComponent,
+    PricingFeaturesComponent,
+    CtaComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
