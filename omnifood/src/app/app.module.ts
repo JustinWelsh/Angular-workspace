@@ -11,6 +11,7 @@ import { TestimonialsGalleryComponent } from './components/testimonials-gallery/
 import { PricingFeaturesComponent } from './components/pricing-features/pricing-features.component';
 import { CtaComponent } from './components/cta/cta.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './components/footer/footer.component';
     TestimonialsGalleryComponent,
     PricingFeaturesComponent,
     CtaComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
