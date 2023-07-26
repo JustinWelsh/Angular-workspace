@@ -7,34 +7,21 @@
 }
 
 .heading-featured-in {
-  /* font-size
-  text-transform
-  letter-spacing
-  font-weight
-  text-align
-  margin-bottom
-  color */
-
   font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 0.75px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   margin-bottom: 2.4rem;
   color: #888;
 }
 
 .logos {
-  /* display
-  justify-content */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .logos img {
-  /* height
-  filter
-  opacity */
   height: 3.2rem;
   filter: brightness(0);
   opacity: 50%;

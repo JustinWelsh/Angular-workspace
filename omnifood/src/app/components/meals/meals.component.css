@@ -6,14 +6,14 @@
   padding: 9.6rem 0;
 }
 
-.meal-card {
+.meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
 }
 
-.meal-card:hover {
+.meal:hover {
   transform: translateY(-1.2rem);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
@@ -38,13 +38,13 @@
   font-weight: 600;
 }
 
-.tag-bg-vegetarian {
+.tag--vegetarian {
   background-color: #51cf66;
 }
-.tag-bg-vegan {
+.tag--vegan {
   background-color: #94d82d;
 }
-.tag-bg-paleo {
+.tag--paleo {
   background-color: #ffd43b;
 }
 

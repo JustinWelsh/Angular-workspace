@@ -3,8 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-how-it-works',
   templateUrl: './how-it-works.component.html',
-  styleUrls: ['./how-it-works.component.css']
+  styleUrls: ['./how-it-works.component.css', '../../css/queries.css'],
 })
-export class HowItWorksComponent {
-
-}
+export class HowItWorksComponent {}
